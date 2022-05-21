@@ -62,6 +62,5 @@ jobs:
           authToken: ${{secrets.GITHUB_TOKEN}}
           context: 'Test report'
           state: 'success'
-          sha: ${{ github.event.pull_request.head.sha }}
-          target_url: simple-elf.github.io/github-allure-history/${{ github.run_number }}
+          target_url: rberezen.github.io/selenium-task/github-allure-history/${{ github.run_number }}
 
