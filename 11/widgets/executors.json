@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://rberezen.github.io/selenium-task",
+  "buildOrder" : 11,
+  "buildName" : "GitHub Actions Run #2364408225",
+  "buildUrl" : "https://github.com/rberezen/selenium-task/actions/runs/2364408225",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://rberezen.github.io/selenium-task/11/"
+} ]
