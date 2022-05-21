@@ -1,0 +1,56 @@
+{
+  "uid" : "f489ff4626126678",
+  "name" : "test6",
+  "fullName" : "com.berezenskyi.ruslan.SeleniumTest.test6",
+  "historyId" : "238fe5ecf59377be3d5c5427d4d7b5b",
+  "time" : {
+    "start" : 1653167028310,
+    "stop" : 1653167028345,
+    "duration" : 35
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.berezenskyi.ruslan"
+  }, {
+    "name" : "testClass",
+    "value" : "com.berezenskyi.ruslan.SeleniumTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "test6"
+  }, {
+    "name" : "suite",
+    "value" : "com.berezenskyi.ruslan.SeleniumTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az128-809"
+  }, {
+    "name" : "thread",
+    "value" : "2212@fv-az128-809.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f489ff4626126678.json",
+  "parameterValues" : [ ]
+}

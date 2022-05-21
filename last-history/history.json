@@ -1,0 +1,122 @@
+{
+  "7bacee35add523426bd820bc02c50bc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9d05a432cb6700d8",
+      "reportUrl" : "https://rberezen.github.io/selenium-task/3//#testresult/9d05a432cb6700d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653167019261,
+        "stop" : 1653167019322,
+        "duration" : 61
+      }
+    } ]
+  },
+  "fd7f810736db2fff12f0a906b30d1b18" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "aa4065a7b1798cc2",
+      "reportUrl" : "https://rberezen.github.io/selenium-task/3//#testresult/aa4065a7b1798cc2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653167019497,
+        "stop" : 1653167028309,
+        "duration" : 8812
+      }
+    } ]
+  },
+  "ed8e35617808c41cca886de06651a8a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fc22295ca75944a8",
+      "reportUrl" : "https://rberezen.github.io/selenium-task/3//#testresult/fc22295ca75944a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653167019325,
+        "stop" : 1653167019455,
+        "duration" : 130
+      }
+    } ]
+  },
+  "357fdf864348a98006997f762f8111ae" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4cc58d8a34432c20",
+      "reportUrl" : "https://rberezen.github.io/selenium-task/3//#testresult/4cc58d8a34432c20",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653167019456,
+        "stop" : 1653167019495,
+        "duration" : 39
+      }
+    } ]
+  },
+  "238fe5ecf59377be3d5c5427d4d7b5b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f489ff4626126678",
+      "reportUrl" : "https://rberezen.github.io/selenium-task/3//#testresult/f489ff4626126678",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653167028310,
+        "stop" : 1653167028345,
+        "duration" : 35
+      }
+    } ]
+  },
+  "f1804b8f49cc05d943383a46a7cc68ce" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cce0dbaa15b78669",
+      "reportUrl" : "https://rberezen.github.io/selenium-task/3//#testresult/cce0dbaa15b78669",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653167018917,
+        "stop" : 1653167019178,
+        "duration" : 261
+      }
+    } ]
+  }
+}
