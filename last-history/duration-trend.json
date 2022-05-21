@@ -1,8 +1,3 @@
 [ {
-  "buildOrder" : 3,
-  "reportUrl" : "https://rberezen.github.io/selenium-task/3/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 9428
-  }
+  "data" : { }
 } ]
