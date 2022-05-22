@@ -16,13 +16,17 @@ public class MainPage {
         this.driver = driver;
     }
 
-    @FindBy(id = "inputEmail")
+    public final String inputEmail = "inputEmail";
+    public final String inputPassword = "inputPassword";
+    public final String signIn = "//button[text()='Sign in']";
+
+    @FindBy(id = inputEmail)
     public WebElement emailField;
 
-    @FindBy(id = "inputPassword")
+    @FindBy(id = inputPassword)
     public WebElement passwordField;
 
-    @FindBy(xpath = "//button[text()='Sign in']")
+    @FindBy(xpath = signIn)
     private WebElement signBtn;
 
     @FindBy(id = "dropdownMenuButton")
@@ -42,6 +46,10 @@ public class MainPage {
 
     public WebElement dropdownItem(String option) {
         return driver.findElement(By.xpath(String.format("//a[@class='dropdown-item' and text()='%s']", option)));
+    }
+
+    public List<WebElement> listGroup() {
+        return driver.findElements(By.xpath("//ul[@class='list-group']/li"));
     }
 
     public void inputEmail(String email) {

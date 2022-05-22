@@ -1,6 +1,9 @@
 package com.berezenskyi.ruslan;
 
-import org.junit.*;
+import org.junit.AfterClass;
+import org.junit.Assert;
+import org.junit.BeforeClass;
+import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -26,15 +29,15 @@ public class SeleniumTest {
         driver = new ChromeDriver(options);
         mainPage = new MainPage(driver);
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
         driver.get("file:///" + System.getProperty("user.dir") + ConfProperties.getProperty("testpage"));
     }
 
     @Test
     public void test1() {
-        Assert.assertTrue("Email field has not been found", mainPage.isPresent(By.id("inputEmail")));
-        Assert.assertTrue("Password field has not been found", mainPage.isPresent(By.id("inputPassword")));
-        Assert.assertTrue("Sign in button is not present", mainPage.isPresent(By.xpath("//button[text()='Sign in']")));
+        Assert.assertTrue("Email field has not been found", mainPage.isPresent(By.id(mainPage.inputEmail)));
+        Assert.assertTrue("Password field has not been found", mainPage.isPresent(By.id(mainPage.inputPassword)));
+        Assert.assertTrue("Sign in button is not present", mainPage.isPresent(By.xpath(mainPage.signIn)));
         mainPage.inputEmail("email@com");
         mainPage.inputPassword("password");
         mainPage.clickSignInBtn();
@@ -42,7 +45,7 @@ public class SeleniumTest {
 
     @Test
     public void test2() {
-        List<WebElement> allElements = driver.findElements(By.xpath("//ul[@class='list-group']/li"));
+        List<WebElement> allElements = mainPage.listGroup();
         WebElement listItem2 = allElements.get(1);
         Assert.assertEquals("There are not three values in the listgroup", 3, allElements.size());
         Assert.assertTrue("Second list item's value is not set to List Item 2", listItem2.getText().contains("List Item 2"));
@@ -73,7 +76,7 @@ public class SeleniumTest {
 
     @Test
     public void test6() {
-        Assert.assertTrue("The value of the cell is not Ventosanzap", mainPage.getElementByCoordinates(2,2).getText().contains("Ventosanzap"));
+        Assert.assertTrue("The value of the cell is not Ventosanzap", mainPage.getElementByCoordinates(2, 2).getText().contains("Ventosanzap"));
     }
 
     @AfterClass
