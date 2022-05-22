@@ -1,0 +1,87 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "com.berezenskyi.ruslan",
+    "children" : [ {
+      "name" : "test1",
+      "uid" : "505d48966548d6ea",
+      "parentUid" : "5a276317864b7b6073b63a6e5b3e7637",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653214345176,
+        "stop" : 1653214345515,
+        "duration" : 339
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test2",
+      "uid" : "1115b695399b4c3a",
+      "parentUid" : "5a276317864b7b6073b63a6e5b3e7637",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653214345606,
+        "stop" : 1653214345677,
+        "duration" : 71
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test3",
+      "uid" : "5f522c21bbc760d9",
+      "parentUid" : "5a276317864b7b6073b63a6e5b3e7637",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653214345679,
+        "stop" : 1653214345822,
+        "duration" : 143
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test4",
+      "uid" : "20e69596c46a8be6",
+      "parentUid" : "5a276317864b7b6073b63a6e5b3e7637",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653214345824,
+        "stop" : 1653214345865,
+        "duration" : 41
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test5",
+      "uid" : "18fb7dde78dd6ab6",
+      "parentUid" : "5a276317864b7b6073b63a6e5b3e7637",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653214345866,
+        "stop" : 1653214354076,
+        "duration" : 8210
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test6",
+      "uid" : "7a1a0b5b3dcbdf0d",
+      "parentUid" : "5a276317864b7b6073b63a6e5b3e7637",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653214354077,
+        "stop" : 1653214354112,
+        "duration" : 35
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "com.berezenskyi.ruslan"
+  } ],
+  "name" : "packages"
+}
