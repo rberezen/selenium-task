@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun May 22 10:11:42 GMT 2022","Sun May 22 10:11:43 GMT 2022","559","","com.berezenskyi.ruslan.SeleniumTest","","com.berezenskyi.ruslan.SeleniumTest","test1","test1",""
+"passed","Sun May 22 10:11:43 GMT 2022","Sun May 22 10:11:43 GMT 2022","168","","com.berezenskyi.ruslan.SeleniumTest","","com.berezenskyi.ruslan.SeleniumTest","test3","test3",""
+"passed","Sun May 22 10:11:43 GMT 2022","Sun May 22 10:11:43 GMT 2022","60","","com.berezenskyi.ruslan.SeleniumTest","","com.berezenskyi.ruslan.SeleniumTest","test4","test4",""
+"passed","Sun May 22 10:11:43 GMT 2022","Sun May 22 10:11:47 GMT 2022","3641","","com.berezenskyi.ruslan.SeleniumTest","","com.berezenskyi.ruslan.SeleniumTest","test5","test5",""
+"passed","Sun May 22 10:11:43 GMT 2022","Sun May 22 10:11:43 GMT 2022","103","","com.berezenskyi.ruslan.SeleniumTest","","com.berezenskyi.ruslan.SeleniumTest","test2","test2",""
+"passed","Sun May 22 10:11:47 GMT 2022","Sun May 22 10:11:47 GMT 2022","39","","com.berezenskyi.ruslan.SeleniumTest","","com.berezenskyi.ruslan.SeleniumTest","test6","test6",""
